@@ -295,6 +295,8 @@ $(document).ready(function(){
     $("#jsGrid").jsGrid({
         width: "100%",
         height: "700px",
+        
+        
  
         inserting: true,
         editing: true,
@@ -306,18 +308,18 @@ $(document).ready(function(){
         fields: [
             { name: "id", type: "text", width: 5, validate: "required" },
             { name: "Name", type: "number", width: 15 },
-            { name: "Substanzname", type: "text", width: 15 },
-            { name: "Substanzklasse", type: "text", width: 15, validate: "required" },
-            { name: "Tagesdosis", type: "number", width: 105},
-            { name: "Dosierung", type: "text", width: 15 },
-            { name: "Startdosis", type: "text", width: 15, validate: "required" },
-            { name: "Dosisreduktion", type: "number", width: 15 },
-            { name: "Tageshöchstdosis", type: "text", width: 15 },
-            { name: "Nebenwirkungen", type: "number", width: 15 },
-            { name: "Antidot", type: "text", width: 15 },
-            { name: "Kontraindikation", type: "text", width: 15, validate: "required" },
-            { name: "Kommentarefix", type: "number", width: 15 },
-            { name: "Kommentarejedes", type: "text", width: 15 },
+            { name: "Substanzname", type: "text", width: 35 },
+            { name: "Substanzklasse", type: "text", width: 40, validate: "required" },
+            { name: "Tagesdosis", type: "number", width: 35},
+            { name: "Dosierung", type: "text", width: 40 },
+            { name: "Startdosis", type: "text", width: 40, validate: "required" },
+            { name: "Dosisreduktion", type: "number", width: 40 },
+            { name: "Tageshöchstdosis", type: "text", width: 45},
+            { name: "Nebenwirkungen", type: "number", width: 45 },
+            { name: "Antidot", type: "text", width: 40 },
+            { name: "Kontraindikation", type: "text", width: 40, validate: "required" },
+            { name: "Kommentarefix", type: "number", width: 40 },
+            { name: "Kommentarejedes", type: "text", width: 45 },
             { type: "control" }
         ]
     });
